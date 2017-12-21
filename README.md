@@ -1,3 +1,5 @@
-# 1xBrute
-Linear algebra brute-force solver. Checks every value through the designated range in order.
-Can now solve quadratic equations as well in the 1x2 folder.
+# xBrute
+Algebra brute-force solver. Checks every value through the designated range in order.
+Can solve simple linear algebra in the 1x1 folder.
+Can solve quadratic equations in the 1x2 folder.
+Can solve systems in the 2x folder.
