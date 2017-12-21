@@ -1,5 +1,5 @@
 function test(x) {
-    return ((/*first side*/) == (/*other side*/));
+    return (() == ());
 }
 for (i = 0; i <= 100; i++) {
     if (test(i)) {
