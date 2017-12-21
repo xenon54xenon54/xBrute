@@ -1,5 +1,5 @@
 function test(x, y, z) {
-    return (((x) == (1)) && ((y) == (2)) && ((z) == (3)));
+    return ((() == ()) && (() == ()) && (() == ()));
 }
 var answers = 0;
 for (i = -20; i < 20; i = i + 1) {
