@@ -4,10 +4,7 @@ Copy this entire script and paste it into your browser's console. Make sure to c
 function test(x) {
     return ((/*first side*/) == (/*other side*/));/*Defines the equation. Write over and remove comments.*/
 }
-var start = 0 /*Change this to move the starting point of guesses.*/
-var max = 100 /*This is the max value the code runs through. Move your the start up before you move the ceiling down.*/
-var increment = 1 /*This controls how often the script checks a number. 1 checks every integer, lower checks more, more checks less. Make sure the max is a multiple of the increment to keep the program from going higher.*/
-for (i = start; i <= max; i+increment) {
+for (i = 0; i <= 100; i+1) {/*Change the first number for the floor, the second for the ceiling, and the third for the increment between tries.*/
     if (test(i)) {
         console.log(i);/*Prints the answer.*/
         break;/*Ends the program when it gets to the right answer so it doesn't have to run through more wrong answers.*/
