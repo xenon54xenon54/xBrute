@@ -1,9 +1,5 @@
-var side1_1 = /**/;
-var side1_2 = /**/;
-var side2_1 = /**/;
-var side2_2 = /**/;
 function test(x, y) {
-    return (((side1_1) == (side1_2)) && ((side2_1) == (side2_2)));
+    return ((() == ()) && (() == ()));
 }
 var answers = 0;
 for (i = -20; i < 20; i = i + 1) {
