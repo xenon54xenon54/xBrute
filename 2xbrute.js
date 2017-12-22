@@ -1,3 +1,4 @@
+function submit() {
 function test(x, y) {
     return ((() == ()) && (() == ()));
 }
@@ -14,4 +15,5 @@ for (i = -20; i < 20; i = i + 1) {
             }
         }
     }
+}
 }
